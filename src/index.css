@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  .trap {
+    @apply h-screen w-full bg-gradient-to-t from-red-500 to-purple-500;
+    clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 20% 0%);
+  }
+}
